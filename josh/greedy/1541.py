@@ -1,4 +1,4 @@
-list = input().split('-') # -을 기준으로 split해서 n에 저장
+list = input().split('-') # -을 기준으로 split해서 n에 저장 #
 
 num = [] # -로 나눈 항들의 합을 저장할 리스트
 
