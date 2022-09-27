@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input())#
 
 time = list(map(int,input().split()))
 
