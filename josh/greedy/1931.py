@@ -1,4 +1,4 @@
-N = int(input())
+N = int(input()) #
 time = []
 
 for _ in range(N):
