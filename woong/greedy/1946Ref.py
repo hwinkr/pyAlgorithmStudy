@@ -5,6 +5,7 @@ input = sys.stdin.readline
 def solution():
     test = int(input())
     pass_lst = []
+
     for _ in range(test):
         n = int(input())
         ranks = [0] * (n + 1)
