@@ -8,6 +8,7 @@ while sugar >= 0:
         cnt += sugar // 5
         print(cnt)
         break
+
     cnt += 1
     sugar -= 3
 else:
