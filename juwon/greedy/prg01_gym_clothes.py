@@ -13,10 +13,17 @@ def solution(n, lost, reserve):
             
     for j in lost[:]:               # 앞뒤에 빌려줄 사람이 있다면 빌려오고 +1 한 후
         if j - 1 in reserve:        # 빌려준 사람을 reserve리스트에서 제외한다
-            answer += 1
+            answer += 1             
             reserve.remove(j-1)
         elif j + 1 in reserve:
             answer += 1
             reserve.remove(j+1)
         
     return answer
+
+    # for j in lost[:]:
+    #     for x in (j-1, j+1):
+    #         if x in reserve:
+    #             answer += 1
+    #             reserve.remove(x)
+    # 14번째 줄을 이렇게 바꿀 수 있다고 함 
