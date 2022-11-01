@@ -1,11 +1,9 @@
-# dfs와 bfs
-
 from collections import deque
 import sys
 
 input = sys.stdin.readline
 
-# ! 방문할 수 있는 정점이 여러개인 경우 번호가 작은 수 부터 방문 -> 방문하기 전에 먼저 sort 를 해준다
+
 def dfs(x):
     print(x, end=" ")
     visited[x] = True
