@@ -14,3 +14,4 @@ while start <= end:
     
     for x in obstacle:
         
+        
